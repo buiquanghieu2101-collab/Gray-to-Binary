@@ -100,6 +100,7 @@ Placement Violations = 0
 The design is routed using the available metal layers.
 
 Result:
+![Routing](img/rout.png)
 
 ```text
 Routing Overflow = 0%
@@ -110,6 +111,9 @@ Routing Overflow = 0%
 Design Rule Check and Layout Versus Schematic checks are performed after physical implementation.
 
 Results:
+
+![DRC / LVS](img/drc.png)
+![DRC / LVS](img/lvs1.png)
 
 ```text
 DRC Violations = 0
@@ -136,7 +140,7 @@ LVS = MATCH
 
 ---
 
-## 🔍 Formal Verification
+## Formal Verification
 
 Formal verification result:
 
