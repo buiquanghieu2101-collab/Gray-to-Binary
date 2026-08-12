@@ -69,6 +69,7 @@ The synthesis process generates a mapped netlist using standard cells from the t
 ### 4. Formal Verification
 
 Formal equivalence checking is performed using **Synopsys Formality** to verify that the synthesized netlist is functionally equivalent to the original RTL design.
+![Formal Verification](img/formal.png)
 
 ### 5. Floorplan
 
@@ -79,6 +80,7 @@ Due to placement site and grid constraints, the final core utilization is:
 ```text
 Core Utilization = 81.03%
 ```
+![Floorplan](img/reportutilazation.png)
 
 ### 6. Placement
 
@@ -114,7 +116,7 @@ LVS = MATCH
 
 ---
 
-## 📊 Synthesis Results
+## Synthesis Results
 
 | Parameter                  |    Result |
 | -------------------------- | --------: |
