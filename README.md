@@ -56,7 +56,7 @@ where:
 The Gray-to-Binary Converter is described using Verilog RTL.
 
 ### Simulation Waveform
-![ALU8 Simulation](img/simulation.png)
+![Simulation Waveform](img/simulation.png)
 
 The RTL design is verified using test vectors to ensure that the Gray Code is correctly converted to Binary Code.
 
