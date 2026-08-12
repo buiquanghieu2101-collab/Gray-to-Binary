@@ -87,11 +87,13 @@ Core Utilization = 81.03%
 Standard cells are placed inside the core area and legalization is performed.
 
 Result:
+![Flacement](img/placement.png)
 
 ```text
 Placement Legality = PASS
 Placement Violations = 0
 ```
+
 
 ### 7. Routing
 
