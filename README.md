@@ -143,6 +143,7 @@ LVS = MATCH
 ## Formal Verification
 
 Formal verification result:
+![Formal Verification](img/formal1.png)
 
 ```text
 Verification: SUCCEEDED
@@ -154,7 +155,7 @@ The synthesized implementation is functionally equivalent to the original RTL de
 
 ---
 
-## 📐 Back-end Results
+##  Back-end Results
 
 | Parameter        |       Result |
 | ---------------- | -----------: |
@@ -173,7 +174,7 @@ The synthesized implementation is functionally equivalent to the original RTL de
 
 ---
 
-## ⏱️ Timing Results
+## Timing Results
 
 | Parameter         |    Result |
 | ----------------- | --------: |
@@ -184,74 +185,8 @@ The synthesized implementation is functionally equivalent to the original RTL de
 | TNS               |      0 ns |
 | Timing Sign-off   |      PASS |
 
----
 
-## 📁 Project Structure
-
-```text
-Gray-to-Binary-Converter-ASIC/
-│
-├── README.md
-│
-├── RTL/
-│   ├── gray_to_binary.v
-│   └── gray_to_binary_tb.v
-│
-├── Synthesis/
-│   ├── scripts/
-│   ├── reports/
-│   └── netlist/
-│
-├── Verification/
-│   ├── simulation/
-│   └── formality/
-│
-├── Backend/
-│   ├── scripts/
-│   ├── reports/
-│   ├── floorplan/
-│   ├── placement/
-│   └── routing/
-│
-└── Results/
-    ├── waveform/
-    ├── schematic/
-    ├── floorplan/
-    ├── placement/
-    ├── routing/
-    └── DRC_LVS/
-```
-
----
-
-## 🛠️ Tools
-
-* Verilog
-* Synopsys Design Compiler
-* Synopsys Formality
-* Synopsys Physical Design Tools
-* ASIC Standard Cell Library
-* Simulation / Waveform Analysis
-
----
-
-## 👨‍💻 Authors
-
-**Bùi Quang Hiếu**
-Student ID: `23207053`
-
-**Nguyễn An Khang**
-Student ID: `23207066`
-
-**Class:** `23DTV_CLC2 - CA1`
-
-**Course:** Thực hành thiết kế vi mạch điện tử
-
-**Project:** Thiết kế và hiện thực ASIC – Gray-to-Binary Converter
-
----
-
-## ✅ Final Result
+## Final Result
 
 The 4-bit Gray-to-Binary Converter successfully completed the ASIC design flow from RTL to physical implementation.
 
